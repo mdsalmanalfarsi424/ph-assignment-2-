@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* shered style */
+.inter-font {
+  font-family: "Inter", sans-serif;
+}
+.gradient-text{
+font-size: 3rem;
+font-weight: bold;
+background: linear-gradient(to right,#ffffff 45%, #F7E93F 0%, #FB09B4 51%, #9901ff 100%);
+-webkit-background-clip: text;
+background-clip: text;
+color: transparent;
+}
+
+.gradient-button{
+  font-size: 1rem;
+  font-weight: 600px;
+  border-style: none;
+  padding: 12px 16px;
+  border-radius: 20px;
+  color: white;
+  background: linear-gradient(to right, #F7E93F 0%, #FB09B4 51%, #9901ff 100% );
+  
+}
+/* shered style */
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  background-color: #1A0B2E;
+  align-items: center;
+  color: white;
+}
+.menu ul{
+  display: flex;
+  list-style: none;
+  gap: 32px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500px;
+}
+
