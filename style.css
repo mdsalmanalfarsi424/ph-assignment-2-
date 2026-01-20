@@ -170,10 +170,71 @@ nav{
 /* *******************                      **********************/
 
 
-/********************* podcast section end  ***********************/
+/********************* Why-TechWave section start ***********************/
 /* *******************                      **********************/
+.why-techwabe-section{
+  background-color: #230E3D;
+}
+.techwabe-title{
+  font-size: 3rem;
+  font-weight: 400px;
+  color: #ffffff;
+  padding-top: 120px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.why-techwabe-container>*{
+  padding: 40px;
+  border-radius: 50px;
+  background-color: rgba(93, 37, 167, 0.336);
+
+}
+.why-techwabe-container{
+  display: grid;
+gap: 30px;
+grid-template-columns: repeat(6, 1fr);
+grid-template-rows: repeat(6,1fr);
+max-width: 1200px;
+margin: 0 auto;
+color: #ffffff;
+}
+
+.why-techwabe-container h2{
+  font-size: 1,5rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  
+}
+.why-techwabe-container p{
+  font-size: 1rem;
+  font-weight: 400px;
+}
 
 
-/********************* podcast section end  ***********************/
+.normal-layout{
+  grid-column: span 2;
+  grid-row: span 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.big-layout{
+  grid-column: span 4;
+  grid-row: span 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.exclusive-interviews{
+  grid-column: span 4;
+  grid-row: span 4;
+}
+
+
+
+/********************* Why-TechWave section end  ***********************/
 /* *******************                      **********************/
 
