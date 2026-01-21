@@ -23,6 +23,7 @@ color: transparent;
   border-radius: 30px;
   color: white;
   background: linear-gradient(45deg, #F7E93F 0%, #FB09B4 51%, #9901ff 100% );
+  cursor: pointer;
   
 }
 /* shered style */
@@ -128,6 +129,7 @@ nav {
   border-radius: 30px;
   color: white;
   background: linear-gradient(45deg, #F7E93F 0%, #FB09B4 51%, #9901ff 100% );
+  cursor: pointer;
 }
 .hero-spotify-btn{
   display: inline-flex;
@@ -153,6 +155,7 @@ nav {
   align-items: center;
   gap: 8px;
   margin-left: 8px;
+  cursor: pointer;
   
 }
 
